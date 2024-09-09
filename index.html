@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de materia tu favorita</h1>
+    
+        <form id="form">
+            <div class="inputGroup">
+                <input type="text" required="" id="name" autocomplete="off">
+                <label for="name">Name</label>
+            </div>
+            
+            <div class="inputGroup">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Correo Electrónico</label>
+            </div>
+
+            <div class="inputGroup">
+                <input type="password" id="password" name="password" required>
+                <label for="password">Contraseña:</label>
+            </div>
+            
+            <div class="select-div">
+                <label for="selectField">Selecciona una materia:</label>
+                <select id="selectField" name="selectField" required >
+                    <option value="" disabled selected>Elija una opción</option>
+                </select>
+            </div>
+            
+            <div class="button-container">
+                <button type="submit">Enviar</button>
+            </div>
+            
+        </form>
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>

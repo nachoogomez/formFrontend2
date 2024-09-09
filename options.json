@@ -1,0 +1,10 @@
+{
+    "options": [
+      { "value": "Frontend", "label": "Frontend" },
+      { "value": "Base de datos", "label": "Base de datos" },
+      { "value": "Backend", "label": "Backend" },
+      { "value": "Laboratorio", "label": "Laboratorio" },
+      { "value": "Practicas", "label": "Practicas" }
+    ]
+  }
+  
